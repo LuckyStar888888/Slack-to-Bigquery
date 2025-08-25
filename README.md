@@ -57,11 +57,11 @@ The workflow leverages **Google Cloud Run**, **Google Vertex AI Agent Engine**, 
 
 ---
 
-## 📂 Repository Structure  
+## 📂 Project Structure  
 ```bash
 ├── README.md          # Project documentation  
 ├── slack_app/         # Slack bot integration code  
-├── google_cloud_run_service/main.py # Cloud Run middleware code  
+├── google_cloud_run_service/slack_calling_AI_agents_app # Cloud Run middleware code  
 ├── google_vertex_ai/agent_engine   # Vertex AI query processing logic  
 ├── bigquery/          # Example SQL queries / schema  
 └── docs/              # Architecture diagrams & docs  
@@ -85,8 +85,15 @@ The workflow leverages **Google Cloud Run**, **Google Vertex AI Agent Engine**, 
 ---
 
 ## 📖 How to Use Step by Step (High-Level)  
-1. Deploy the Slack app and configure it with your workspace.  
-2. Deploy the Cloud Run service with proper IAM permissions.  
-3. Enable Vertex AI and connect it with Cloud Run.  
-4. Provide access to BigQuery datasets.  
-5. Start asking questions in Slack! 🎉  
+Step 1: **Build data warehouse**
+(1) Setup your Google Cloud Account, build a data lake(Google Cloud Storage) and a data warehouse(Google Bigquery). Suppose this step is all completed.
+
+Step 2: **Build data science AI agent**   
+(1) Build a data science agent using **Agent Development Kit (ADK)**. And then deploy the agent to **Google Vertex AI** as an Agent Engine.
+
+Step 3: **Build Slack APP and Slack Calling AI Agents App** 
+(1) Create a Slack app and configure it with your workspace.
+(2) Build a **Slack Calling AI Agents App**. And then deploy the APP to **Cloud Run Service** with proper IAM permissions. 
+
+Step 4: **Query data and plot chart in Slack** 
+(1) Start asking questions in Slack! 🎉  
