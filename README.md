@@ -88,10 +88,10 @@ The workflow leverages **Google Cloud Run**, **Google Vertex AI Agent Engine**, 
 Step 1: **Build data warehouse**
 (1) Setup your Google Cloud Account, build a data lake(Google Cloud Storage) and a data warehouse(Google Bigquery). Suppose this step is all completed.
 
-Step 2: **Build data science AI agent**   
+Step 2: **Build data science AI agent** 
 (1) Build a data science agent using **Agent Development Kit (ADK)**. And then deploy the agent to **Google Vertex AI** as an Agent Engine.
 
-Step 3: **Build Slack APP and Slack Calling AI Agents App** 
+Step 3: **Build Slack APP and Slack Calling AI Agents App**
 (1) Create a Slack app and configure it with your workspace.
 (2) Build a **Slack Calling AI Agents App**. And then deploy the APP to **Cloud Run Service** with proper IAM permissions. 
 
