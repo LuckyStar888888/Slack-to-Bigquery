@@ -90,6 +90,7 @@ Step 1: **Build data warehouse**
 
 Step 2: **Build data science AI agent** 
   - Build a data science agent using **Agent Development Kit (ADK)**. And then deploy the agent to **Google Vertex AI** as an Agent Engine.
+  - The agent can be found in the repo: [google-data-science-ai-agent](https://github.com/LuckyStar888888/google-data-science-ai-agent/tree/main) 
 
 Step 3: **Build Slack APP and Slack Calling AI Agents App**
   - Create a Slack app and configure it with your workspace.
