@@ -94,7 +94,8 @@ Step 2: **Build data science AI agent**
 
 Step 3: **Build Slack APP and Slack Calling AI Agents App**
   - Create a Slack app and configure it with your workspace.
-  - Build a **Slack Calling AI Agents App**. And then deploy the APP to **Cloud Run Service** with proper IAM permissions. 
+  - Build a **Slack Calling AI Agents App**. And then deploy the APP to **Cloud Run Service** with proper IAM permissions.
+  - The agent can be found in the repo: [slack-calling-vertexai-agent](https://github.com/LuckyStar888888/slack-calling-vertexai-agent)
 
 Step 4: **Query data and plot chart in Slack** 
   - Start asking questions in Slack! 🎉  
